@@ -1,0 +1,720 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 12 23:08:52 GMT+03:00 2017</td>
+</tr>
+<tr><td>Total time:</td><td>146 seconds (146559 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.checkingCostMultipleDestinationsFlight()'><b>checkingCostMultipleDestinationsFlight</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-1115170891" onClick='toggleBox("Output-1115170891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1115170891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1115170891">
+ INFO    MainTest# 238: test case ID9
+<br/>
+ WARN    MainTest# 240: start 'navigate'
+<br/>
+ INFO    MainTest# 243: finish 'navigate'
+<br/>
+ WARN    MainTest# 245: start 'bookFlightMultipleDestinationsPage'
+<br/>
+ INFO    MainTest# 247: finish 'bookFlightMultipleDestinationsPage'
+<br/>
+ WARN    MainTest# 249: start 'fillingOutboundFlight'
+<br/>
+ INFO    MainTest# 254: finish 'fillingOutboundFlight'
+<br/>
+ WARN    MainTest# 256: start 'fillingInboundFlight'
+<br/>
+ INFO    MainTest# 259: finish 'fillingInboundFlight'
+<br/>
+ WARN    MainTest# 261: start 'search flight multiple destinations'
+<br/>
+ INFO    MainTest# 263: finish 'search flight multiple destinations'
+<br/>
+ WARN    MainTest# 265: start 'timingOutboundDepartureFlight'
+<br/>
+ INFO    MainTest# 267: finish 'timingOutboundDepartureFlight'
+<br/>
+ WARN    MainTest# 269: start 'timingInboundDepartureFlight'
+<br/>
+ INFO    MainTest# 271: finish 'timingInboundDepartureFlight'
+<br/>
+ WARN    MainTest# 273: start 'getTotalAmount'
+<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;top&apos;]/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id=&apos;top&apos;]/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightMultipleDestinationsPage.getTotalAmount(BookFlightMultipleDestinationsPage.java:141)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingCostMultipleDestinationsFlight(MainTest.java:274)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1115170891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1115170891'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;top&apos;]/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id=&apos;top&apos;]/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightMultipleDestinationsPage.getTotalAmount(BookFlightMultipleDestinationsPage.java:141)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingCostMultipleDestinationsFlight(MainTest.java:274)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>34</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.checkingTotalCostTickets()'><b>checkingTotalCostTickets</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-1818339587" onClick='toggleBox("Output-1818339587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1818339587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1818339587">
+ INFO    MainTest#  82: test case ID2
+<br/>
+ WARN    MainTest#  84: start 'navigate'
+<br/>
+ INFO    MainTest#  87: finish 'navigate'
+<br/>
+ WARN    MainTest#  89: start 'fillingDepartureStationField'
+<br/>
+ INFO    MainTest#  91: finish 'fillingDepartureStationField'
+<br/>
+ WARN    MainTest#  93: start 'fillingArrivalStationField'
+<br/>
+ INFO    MainTest#  95: finish 'fillingArrivalStationField'
+<br/>
+ WARN    MainTest#  97: start 'inputPassengers'
+<br/>
+ INFO    MainTest#  99: finish 'inputPassengers'
+<br/>
+ WARN    MainTest# 101: start 'bookFlightPage'
+<br/>
+ INFO    MainTest# 103: finish 'bookFlightPage'
+<br/>
+ WARN    MainTest# 105: start 'selectFlight'
+<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2&apos; (tried for 5 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightPage.selectFlight(BookFlightPage.java:71)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingTotalCostTickets(MainTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 27 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1818339587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1818339587'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: .//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2&apos; (tried for 5 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightPage.selectFlight(BookFlightPage.java:71)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingTotalCostTickets(MainTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id=&apos;top&apos;]/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 27 more
+</pre></div></td>
+<td>20</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.compareTotalSumAndPaymentAmount()'><b>compareTotalSumAndPaymentAmount</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-1534755892" onClick='toggleBox("Output-1534755892", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1534755892" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1534755892">
+ INFO    MainTest# 172: test case ID4
+<br/>
+ WARN    MainTest# 174: start 'navigate'
+<br/>
+ INFO    MainTest# 177: finish 'navigate'
+<br/>
+ WARN    MainTest# 179: start 'loginBookingPage'
+<br/>
+ INFO    MainTest# 181: finish 'loginBookingPage'
+<br/>
+ WARN    MainTest# 183: start 'loginBooking'
+<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #retrieveBookingByLastname_RecordLocator
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=id, value=retrieveBookingByLastname_RecordLocator}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:462)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.LoginBookingPage.loginBooking(LoginBookingPage.java:40)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.compareTotalSumAndPaymentAmount(MainTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1534755892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1534755892'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: #retrieveBookingByLastname_RecordLocator
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ALLA-PC&apos;, ip: &apos;192.168.100.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=id, value=retrieveBookingByLastname_RecordLocator}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:462)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.LoginBookingPage.loginBooking(LoginBookingPage.java:40)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.compareTotalSumAndPaymentAmount(MainTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.checkingFlightAndArrival()'><b>checkingFlightAndArrival</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-1661210650" onClick='toggleBox("Output-1661210650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661210650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661210650">
+ INFO    MainTest# 143: test case ID3
+<br/>
+ WARN    MainTest# 145: start 'navigate'
+<br/>
+ INFO    MainTest# 148: finish 'navigate'
+<br/>
+ WARN    MainTest# 150: start 'loginBookingPage'
+<br/>
+ INFO    MainTest# 152: finish 'loginBookingPage'
+<br/>
+ WARN    MainTest# 154: start 'loginBooking'
+<br/>
+ INFO    MainTest# 157: finish 'loginBooking'
+<br/>
+ WARN    MainTest# 159: start 'checkingFlightAndArrivalTime'
+<br/>
+ INFO    MainTest# 162: flight was found!!
+<br/>
+ INFO    MainTest# 163: finish 'checkingFlightAndArrivalTime'
+<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.checkingRouteSearchPanel()'><b>checkingRouteSearchPanel</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-567294307" onClick='toggleBox("Output-567294307", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-567294307" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-567294307">
+ INFO    MainTest#  28: test case ID1
+<br/>
+ WARN    MainTest#  30: start 'navigate'
+<br/>
+ INFO    BaseTest#  34: start 'navigate'
+<br/>
+ INFO    BaseTest#  37: finish 'navigate'
+<br/>
+ INFO    MainTest#  32: finish 'navigate'
+<br/>
+ WARN    MainTest#  34: start 'selectLanguage'
+<br/>
+ INFO    MainTest#  36: finish 'selectLanguage'
+<br/>
+ WARN    MainTest#  38: start 'checkingRoutePanel'
+<br/>
+ INFO    MainTest#  41: routeSearchPanel was enabled!!
+<br/>
+ INFO    MainTest#  42: finish 'checkingRoutePanel'
+<br/>
+ WARN    MainTest#  44: start 'checkingDepartureStationField'
+<br/>
+ INFO    MainTest#  46: departure station was selected!!
+<br/>
+ INFO    MainTest#  47: finish 'checkingDepartureStationField'
+<br/>
+ WARN    MainTest#  49: start 'checkingArrivalStationField'
+<br/>
+ INFO    MainTest#  51: arrival station was selected!!
+<br/>
+ INFO    MainTest#  52: finish 'checkingArrivalStationField'
+<br/>
+ WARN    MainTest#  54: start 'checkingIsReturnFlightCheckbox'
+<br/>
+ INFO    MainTest#  56: isReturnFlightCheckbox was unchecked and isReturnFlightField is empty!!
+<br/>
+ INFO    MainTest#  57: finish 'checkingIsReturnFlightCheckbox'
+<br/>
+ WARN    MainTest#  59: start 'checkingPassengersInputField'
+<br/>
+ INFO    MainTest#  61: passengersTogglepanel was enabled and passenger was selected!!
+<br/>
+ INFO    MainTest#  62: finish 'checkingPassengersInputField'
+<br/>
+ WARN    MainTest#  64: start 'bookFlightPage'
+<br/>
+ INFO    MainTest#  66: finish 'bookFlightPage'
+<br/>
+ WARN    MainTest#  68: start 'checkingOutboundFlight'
+<br/>
+ INFO    MainTest#  71: outbound flight enabled!!
+<br/>
+ INFO    MainTest#  72: finish 'checkingOutboundFlight'
+<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.checkingValidityLink()'><b>checkingValidityLink</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-35984028" onClick='toggleBox("Output-35984028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35984028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35984028">
+ INFO    MainTest# 285: test case ID5
+<br/>
+ WARN    MainTest# 287: start 'navigate'
+<br/>
+ INFO    MainTest# 290: finish 'navigate'
+<br/>
+ WARN    MainTest# 292: start 'handLuggageInformationPage'
+<br/>
+ INFO    MainTest# 294: finish 'handLuggageInformationPage'
+<br/>
+ WARN    MainTest# 296: start 'getVideoLink'
+<br/>
+ INFO    MainTest# 299: hand luggage and Transavia video's link: https://www.youtube.com/embed/fQMuhniqWAg
+<br/>
+ INFO    MainTest# 300: finish 'getVideoLink'
+<br/>
+ WARN    MainTest# 302: start 'handLuggageVideoPage'
+<br/>
+ INFO    MainTest# 304: finish 'handLuggageVideoPage'
+<br/>
+ WARN    MainTest# 306: start 'checkingVideoNameAndAuthor'
+<br/>
+ INFO    MainTest# 309: finish 'checkingVideoNameAndAuthor'
+<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.flightsFromDubaiToAgadir()'><b>flightsFromDubaiToAgadir</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-376635015" onClick='toggleBox("Output-376635015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-376635015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-376635015">
+ INFO    MainTest# 205: test case ID8
+<br/>
+ WARN    MainTest# 207: start 'navigate'
+<br/>
+ INFO    MainTest# 210: finish 'navigate'
+<br/>
+ WARN    MainTest# 212: start 'fillingDepartureStationField'
+<br/>
+ INFO    MainTest# 214: finish 'fillingDepartureStationField'
+<br/>
+ WARN    MainTest# 216: start 'fillingArrivalStationField'
+<br/>
+ INFO    MainTest# 218: finish 'fillingArrivalStationField'
+<br/>
+ WARN    MainTest# 220: start 'bookFlightPage'
+<br/>
+ INFO    MainTest# 222: finish 'bookFlightPage'
+<br/>
+ WARN    MainTest# 224: start 'errorFlight'
+<br/>
+ INFO    MainTest# 228: got error message!!
+<br/>
+ INFO    MainTest# 229: finish 'errorFlight'
+<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+<tr>
+<td title='by.artushevskaya.bookingTransAvia.test.MainTest.searchTickets()'><b>searchTickets</b><br>Test class: by.artushevskaya.bookingTransAvia.test.MainTest<br/>
+<a href="#Output-1131184547" onClick='toggleBox("Output-1131184547", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1131184547" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1131184547">
+ INFO    MainTest# 319: test case ID6
+<br/>
+ WARN    MainTest# 321: start 'navigate'
+<br/>
+ INFO    MainTest# 324: finish 'navigate'
+<br/>
+ WARN    MainTest# 326: start 'destinationsPage'
+<br/>
+ INFO    MainTest# 328: finish 'destinationsPage'
+<br/>
+ WARN    MainTest# 330: start 'bookFlightAdvancedSearchPage'
+<br/>
+ INFO    MainTest# 333: finish 'bookFlightAdvancedSearchPage'
+<br/>
+ WARN    MainTest# 335: start 'fillingDepartureStationField'
+<br/>
+ INFO    MainTest# 338: finish 'fillingDepartureStationField'
+<br/>
+ WARN    MainTest# 340: start 'searchBudgetFlight'
+<br/>
+ INFO    MainTest# 342: finish 'searchBudgetFlight'
+<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>by.artushevskaya.bookingTransAvia.test.MainTest@7791a895</td></tr>
+</table><p>
+</body>
+</html>

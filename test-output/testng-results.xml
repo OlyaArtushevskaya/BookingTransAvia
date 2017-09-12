@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[ WARN    BaseTest#  23: start 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    BaseTest#  28: finish 'startBrowser'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  28: test case ID1
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  30: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  34: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    BaseTest#  37: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  32: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  34: start 'selectLanguage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  36: finish 'selectLanguage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  38: start 'checkingRoutePanel'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  41: routeSearchPanel was enabled!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  42: finish 'checkingRoutePanel'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  44: start 'checkingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  46: departure station was selected!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  47: finish 'checkingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  49: start 'checkingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  51: arrival station was selected!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  52: finish 'checkingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  54: start 'checkingIsReturnFlightCheckbox'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  56: isReturnFlightCheckbox was unchecked and isReturnFlightField is empty!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  57: finish 'checkingIsReturnFlightCheckbox'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  59: start 'checkingPassengersInputField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  61: passengersTogglepanel was enabled and passenger was selected!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  62: finish 'checkingPassengersInputField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  64: start 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  66: finish 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  68: start 'checkingOutboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  71: outbound flight enabled!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  72: finish 'checkingOutboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  82: test case ID2
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  84: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  87: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  89: start 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  91: finish 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  93: start 'fillingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  95: finish 'fillingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest#  97: start 'inputPassengers'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest#  99: finish 'inputPassengers'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 101: start 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 103: finish 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 105: start 'selectFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 143: test case ID3
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 145: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 148: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 150: start 'loginBookingPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 152: finish 'loginBookingPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 154: start 'loginBooking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 157: finish 'loginBooking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 159: start 'checkingFlightAndArrivalTime'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 162: flight was found!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 163: finish 'checkingFlightAndArrivalTime'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 172: test case ID4
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 174: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 177: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 179: start 'loginBookingPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 181: finish 'loginBookingPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 183: start 'loginBooking'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 205: test case ID8
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 207: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 210: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 212: start 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 214: finish 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 216: start 'fillingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 218: finish 'fillingArrivalStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 220: start 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 222: finish 'bookFlightPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 224: start 'errorFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 228: got error message!!
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 229: finish 'errorFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 238: test case ID9
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 240: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 243: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 245: start 'bookFlightMultipleDestinationsPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 247: finish 'bookFlightMultipleDestinationsPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 249: start 'fillingOutboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 254: finish 'fillingOutboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 256: start 'fillingInboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 259: finish 'fillingInboundFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 261: start 'search flight multiple destinations'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 263: finish 'search flight multiple destinations'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 265: start 'timingOutboundDepartureFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 267: finish 'timingOutboundDepartureFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 269: start 'timingInboundDepartureFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 271: finish 'timingInboundDepartureFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 273: start 'getTotalAmount'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 285: test case ID5
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 287: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 290: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 292: start 'handLuggageInformationPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 294: finish 'handLuggageInformationPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 296: start 'getVideoLink'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 299: hand luggage and Transavia video's link: https://www.youtube.com/embed/fQMuhniqWAg
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 300: finish 'getVideoLink'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 302: start 'handLuggageVideoPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 304: finish 'handLuggageVideoPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 306: start 'checkingVideoNameAndAuthor'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 309: finish 'checkingVideoNameAndAuthor'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 319: test case ID6
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 321: start 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 324: finish 'navigate'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 326: start 'destinationsPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 328: finish 'destinationsPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 330: start 'bookFlightAdvancedSearchPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 333: finish 'bookFlightAdvancedSearchPage'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 335: start 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 338: finish 'fillingDepartureStationField'
+]]>
+    </line>
+    <line>
+      <![CDATA[ WARN    MainTest# 340: start 'searchBudgetFlight'
+]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainTest# 342: finish 'searchBudgetFlight'
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="146559" started-at="2017-09-12T20:08:52Z" finished-at="2017-09-12T20:11:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="146559" started-at="2017-09-12T20:08:52Z" finished-at="2017-09-12T20:11:18Z">
+      <class name="by.artushevskaya.bookingTransAvia.test.MainTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="startBrowser" is-config="true" duration-ms="9954" started-at="2017-09-12T23:08:52Z" finished-at="2017-09-12T23:09:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ WARN    BaseTest#  23: start 'startBrowser'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    BaseTest#  28: finish 'startBrowser'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="checkingRouteSearchPanel()[pri:1, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="checkingRouteSearchPanel" duration-ms="18755" started-at="2017-09-12T23:09:02Z" finished-at="2017-09-12T23:09:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest#  28: test case ID1
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  30: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  34: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    BaseTest#  37: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  32: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  34: start 'selectLanguage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  36: finish 'selectLanguage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  38: start 'checkingRoutePanel'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  41: routeSearchPanel was enabled!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  42: finish 'checkingRoutePanel'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  44: start 'checkingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  46: departure station was selected!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  47: finish 'checkingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  49: start 'checkingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  51: arrival station was selected!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  52: finish 'checkingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  54: start 'checkingIsReturnFlightCheckbox'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  56: isReturnFlightCheckbox was unchecked and isReturnFlightField is empty!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  57: finish 'checkingIsReturnFlightCheckbox'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  59: start 'checkingPassengersInputField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  61: passengersTogglepanel was enabled and passenger was selected!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  62: finish 'checkingPassengersInputField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  64: start 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  66: finish 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  68: start 'checkingOutboundFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  71: outbound flight enabled!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  72: finish 'checkingOutboundFlight'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingRouteSearchPanel -->
+        <test-method status="FAIL" signature="checkingTotalCostTickets()[pri:2, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="checkingTotalCostTickets" duration-ms="20317" started-at="2017-09-12T23:09:21Z" finished-at="2017-09-12T23:09:41Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='top']/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2' (tried for 5 second(s) with 500 MILLISECONDS interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='top']/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2' (tried for 5 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightPage.selectFlight(BookFlightPage.java:71)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingTotalCostTickets(MainTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='top']/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ALLA-PC', ip: '192.168.100.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id='top']/div/div/div[3]/section/section/div/div[1]/div[1]/div/div[1]/h2}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest#  82: test case ID2
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  84: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  87: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  89: start 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  91: finish 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  93: start 'fillingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  95: finish 'fillingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest#  97: start 'inputPassengers'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest#  99: finish 'inputPassengers'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 101: start 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 103: finish 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 105: start 'selectFlight'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingTotalCostTickets -->
+        <test-method status="PASS" signature="checkingFlightAndArrival()[pri:3, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="checkingFlightAndArrival" duration-ms="12286" started-at="2017-09-12T23:09:41Z" finished-at="2017-09-12T23:09:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 143: test case ID3
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 145: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 148: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 150: start 'loginBookingPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 152: finish 'loginBookingPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 154: start 'loginBooking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 157: finish 'loginBooking'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 159: start 'checkingFlightAndArrivalTime'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 162: flight was found!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 163: finish 'checkingFlightAndArrivalTime'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingFlightAndArrival -->
+        <test-method status="FAIL" signature="compareTotalSumAndPaymentAmount()[pri:4, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="compareTotalSumAndPaymentAmount" duration-ms="6629" started-at="2017-09-12T23:09:53Z" finished-at="2017-09-12T23:10:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #retrieveBookingByLastname_RecordLocator
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ALLA-PC', ip: '192.168.100.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=id, value=retrieveBookingByLastname_RecordLocator}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #retrieveBookingByLastname_RecordLocator
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ALLA-PC', ip: '192.168.100.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=id, value=retrieveBookingByLastname_RecordLocator}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:462)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.LoginBookingPage.loginBooking(LoginBookingPage.java:40)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.compareTotalSumAndPaymentAmount(MainTest.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 172: test case ID4
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 174: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 177: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 179: start 'loginBookingPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 181: finish 'loginBookingPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 183: start 'loginBooking'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compareTotalSumAndPaymentAmount -->
+        <test-method status="PASS" signature="flightsFromDubaiToAgadir()[pri:5, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="flightsFromDubaiToAgadir" duration-ms="8412" started-at="2017-09-12T23:10:00Z" finished-at="2017-09-12T23:10:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 205: test case ID8
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 207: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 210: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 212: start 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 214: finish 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 216: start 'fillingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 218: finish 'fillingArrivalStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 220: start 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 222: finish 'bookFlightPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 224: start 'errorFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 228: got error message!!
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 229: finish 'errorFlight'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flightsFromDubaiToAgadir -->
+        <test-method status="FAIL" signature="checkingCostMultipleDestinationsFlight()[pri:6, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="checkingCostMultipleDestinationsFlight" duration-ms="34546" started-at="2017-09-12T23:10:08Z" finished-at="2017-09-12T23:10:43Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .//*[@id='top']/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ALLA-PC', ip: '192.168.100.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id='top']/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='top']/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'ALLA-PC', ip: '192.168.100.12', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Alla\AppData\Local\Temp\rust_mozprofile.3fYGekVgQUZM, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=6424, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 7ce9a45a-fd51-44ec-8ca2-a1e0969af20a
+*** Element info: {Using=xpath, value=.//*[@id='top']/form/div[1]/div/footer/div/div/section/div/div/div[2]/div/div/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at by.artushevskaya.bookingTransAvia.pageobject.BookFlightMultipleDestinationsPage.getTotalAmount(BookFlightMultipleDestinationsPage.java:141)
+	at by.artushevskaya.bookingTransAvia.test.MainTest.checkingCostMultipleDestinationsFlight(MainTest.java:274)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 238: test case ID9
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 240: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 243: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 245: start 'bookFlightMultipleDestinationsPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 247: finish 'bookFlightMultipleDestinationsPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 249: start 'fillingOutboundFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 254: finish 'fillingOutboundFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 256: start 'fillingInboundFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 259: finish 'fillingInboundFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 261: start 'search flight multiple destinations'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 263: finish 'search flight multiple destinations'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 265: start 'timingOutboundDepartureFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 267: finish 'timingOutboundDepartureFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 269: start 'timingInboundDepartureFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 271: finish 'timingInboundDepartureFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 273: start 'getTotalAmount'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingCostMultipleDestinationsFlight -->
+        <test-method status="PASS" signature="checkingValidityLink()[pri:7, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="checkingValidityLink" duration-ms="12188" started-at="2017-09-12T23:10:43Z" finished-at="2017-09-12T23:10:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 285: test case ID5
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 287: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 290: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 292: start 'handLuggageInformationPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 294: finish 'handLuggageInformationPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 296: start 'getVideoLink'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 299: hand luggage and Transavia video's link: https://www.youtube.com/embed/fQMuhniqWAg
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 300: finish 'getVideoLink'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 302: start 'handLuggageVideoPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 304: finish 'handLuggageVideoPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 306: start 'checkingVideoNameAndAuthor'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 309: finish 'checkingVideoNameAndAuthor'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkingValidityLink -->
+        <test-method status="PASS" signature="searchTickets()[pri:8, instance:by.artushevskaya.bookingTransAvia.test.MainTest@7791a895]" name="searchTickets" duration-ms="23377" started-at="2017-09-12T23:10:55Z" finished-at="2017-09-12T23:11:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO    MainTest# 319: test case ID6
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 321: start 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 324: finish 'navigate'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 326: start 'destinationsPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 328: finish 'destinationsPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 330: start 'bookFlightAdvancedSearchPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 333: finish 'bookFlightAdvancedSearchPage'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 335: start 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 338: finish 'fillingDepartureStationField'
+]]>
+            </line>
+            <line>
+              <![CDATA[ WARN    MainTest# 340: start 'searchBudgetFlight'
+]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainTest# 342: finish 'searchBudgetFlight'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTickets -->
+      </class> <!-- by.artushevskaya.bookingTransAvia.test.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
